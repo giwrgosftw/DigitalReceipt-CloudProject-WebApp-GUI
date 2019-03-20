@@ -12,8 +12,7 @@ can be selected from a list of suggestions instead of being typed.
 
 # Installation
 To use this template, your computer needs:
-
 1.Python 2 or 3
 2.Flask (pip install flask)
-3.Browse in the
+3.Browse in the folder
 4.Running the app, python app.py
