@@ -1,5 +1,4 @@
-# WebAppEngine-OnlineReceipt-Project 
-# (No database-incompleted)
+# WebAppEngine-OnlineReceipt (No database-incompleted)
 This is my first web application in python using flask.
 
 # Real-life scenario
