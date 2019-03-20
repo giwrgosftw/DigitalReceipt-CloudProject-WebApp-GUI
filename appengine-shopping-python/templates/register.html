@@ -1,0 +1,39 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <h1> Register</h1>
+    {% from "includes/formHelpers.html" import render_field %}
+    <form method = "POST" action="">
+        <div class="form-group">
+        {{render_field(form.firstName, class="form-control")}}
+        </div>
+        <div class="form-group">
+        {{render_field(form.lastName, class="form-control")}}
+        </div>
+        <div class="form-group">
+        {{render_field(form.email, class="form-control")}}
+        </div>
+        <div class="form-group">
+        {{render_field(form.dateOfBirth, class="form-control")}}
+        </div>
+        <div class="form-group">
+        {{render_field(form.placeOfBirth, class="form-control")}}
+        </div>
+        <div class="form-group">
+        {{render_field(form.trailingDigits, class="form-control")}}
+        </div>
+        <div class="form-group">
+        {{render_field(form.leadingDigits, class="form-control")}}
+        </div>
+        <div class="form-group">
+        {{render_field(form.cardType, class="form-control")}}
+        </div>
+        <div class="form-group">
+        {{render_field(form.startDate, class="form-control")}}
+        </div>
+        <div class="form-group">
+        {{render_field(form.expiryDate, class="form-control")}}
+        </div>
+        <p><input type="submit" class="btn btn-primary" value="Submit"></p>
+    </form>
+{% endblock %}

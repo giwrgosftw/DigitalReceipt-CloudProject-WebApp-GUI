@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h1>Welcome customer!</h1>
+  <form method = "POST" action="">
+    <p><input type="submit" class="btn btn-success" value="Send receipt to your linked e-mail"></p>
+  </form>
+  <h2><small>Here is your details: </small></h2>
+  <table class="table table-striped">
+    <tr><th>First Name</th></tr>
+    <tr><th>Last Name</th></tr>
+    <tr><th>Date of birth</th></tr>
+    <tr><th>Place of birth</th></tr>
+    <tr><th>Card trailing digits</th></tr>
+    <tr><th>Card leading digits</th></tr>
+    <tr><th>Card type</th></tr>
+    <tr><th>Start cart date</th></tr>
+    <tr><th>Expiry cart date</th></tr>
+    <tr><th>Your linked e-mail</th></tr>
+    <tr><th></th></tr>
+  </table>
+{% endblock %}

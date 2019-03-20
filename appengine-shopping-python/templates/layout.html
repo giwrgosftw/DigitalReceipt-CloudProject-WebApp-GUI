@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>StoreApp</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+        {% include 'includes/_navbar.html' %}
+        <div class="container">
+        {% include 'includes/messages.html' %}
+        {% block body%} {% endblock %}
+        </div>
+        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+        </script>
+    </body>
+</html>

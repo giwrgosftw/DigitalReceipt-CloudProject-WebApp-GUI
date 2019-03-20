@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <h1>Send your receipt</h1>
+    {% from "includes/formHelpers.html" import render_field %}
+    <form method = "POST" action="">
+        <div class="form-group">
+        {{render_field(form.trailingDigits, class="form-control")}}
+        </div>
+        <div class="form-group">
+        {{render_field(form.leadingDigits, class="form-control")}}
+        </div>
+        <div class="form-group">
+        {{render_field(form.cardType, class="form-control")}}
+        </div>
+        <div class="form-group">
+        {{render_field(form.expiryDate, class="form-control")}}
+        </div>
+        <div class="form-group">
+        {{render_field(form.email, class="form-control")}}
+        </div>
+        <p><input type="submit" class="btn btn-primary" value="Send"></p>
+    </form>
+{% endblock %}
