@@ -16,4 +16,4 @@ To use this template, your computer needs:
 1. Python 2 or 3
 2. Flask (pip install flask)
 3. Browse in the folder (e.g. using cmd)
-4. Running the app, python app.py
+4. Running the app, type python app.py (e.g in cmd)
