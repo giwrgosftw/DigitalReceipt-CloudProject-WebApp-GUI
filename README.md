@@ -18,3 +18,5 @@ To use this template, your computer needs:
 3. Browse in the folder (e.g. using cmd)
 4. Running the app, type "python app.py" (e.g. in cmd)
 5. Browse to the IP which the console shows
+
+Video link: https://youtu.be/4PVnrB_LDlo
