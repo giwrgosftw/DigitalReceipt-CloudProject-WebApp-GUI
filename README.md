@@ -1,5 +1,5 @@
 # Web AppEngine-OnlineReceipt (No database-incompleted)
-This is my first web application in python using flask.
+This is my first web application in python using flask. However, the database is not set up, so the login function does not work.
 
 # Real-life scenario
 1. A customer goes shopping.
