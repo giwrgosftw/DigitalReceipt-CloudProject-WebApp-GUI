@@ -4,11 +4,9 @@ This is my first web application in python using flask. However, the database is
 # Real-life scenario
 1. A customer goes shopping.
 2. He requests an email receipt by filling his card details.
-3. Their email address is typed on the till.
-4. App asked if they'd like to link his email address to his card details by creating an account, so that it doesn't
-have to be typed again when he will visit the shop again.
-5. When they do visit again, their email address is suggested based on their card number and
-can be selected from a list of suggestions instead of being typed.
+3. The email address is typed on the field.
+4. The app is asking if he'd like to link his email address to his card details by creating an account. In this way. the customer will not have to type his card details again.
+5. Next time, when the user will visit the store, his email address will be suggested based on his card number, then it can be selected from a list of suggestions instead of being typed.
 
 # Installation
 To use this template, your computer needs:
